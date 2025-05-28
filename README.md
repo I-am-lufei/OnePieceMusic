@@ -17,7 +17,7 @@
 - 歌单
 - 排行榜
 
-<img src="C:\Users\路飞\Pictures\Screenshot_2025-05-28T141948.png" alt="Screenshot_2025-05-28T141948" style="zoom: 25%;" />
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/Screenshot_2025-05-28T141948.png)
 
 #### 我的
 
