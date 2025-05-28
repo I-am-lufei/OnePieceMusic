@@ -26,8 +26,8 @@ import { RankDetail, songs } from '../viewModel/RankDetail';
 
 const limit_min = 5;
 
-const ip = "10.3.7.23" //192.168.48.149//192.168.5.46//10.3.221.219//192.168.5.59//10.3.7.23
-const qq = '1114754071'
+const ip = "" //本地ipv4
+const qq = '' //你的qq号
 const request_cur_song_url_api: string = 'http://' + ip + ':3200/getMusicPlay?songmid=';
 const request_cur_song_info_api: string = 'http://' + ip + ':3200/getSongInfo?songmid=';
 const request_cur_album_img_api: string = 'http://' + ip + ':3200/getImageUrl?id=';
@@ -372,17 +372,6 @@ export class RCPUtils {
   /**
    * The method of initiating a POST request through RCP.
    */
-  async postRCPRequest(): Promise<void> {
-    let requestContent: rcp.RequestContent = {
-      'data': 'ptcz=4acab8d233e617a5b570e7821b6401234cc1864f0ac32b2d1f5611496d8cdcff; _qimei_q36=; _qimei_h38=b885cd03fbe6c43c8c21f24e02000004718309; eas_sid=D197x129L2i0G3p3w7Y5V6z2H8; RK=9y00gw2WSA; _clck=13zcutc|1|foh|0; suid=user_0_6d702cbeb6fb2; _qimei_fingerprint=54294d045bbf16089634bf9a8b29f912; LW_uid=J117O3A6t9h047w9P0f3R8M9Y6; pac_uid=0_fTmhY3wmQky5x; LW_sid=s1N7O444m6s0l0W7Q423r570x2; fqm_pvqid=5418d028-9602-4a8a-9777-974a5a1d31e3; ts_uid=9304881076; music_ignore_pskey=202306271436Hn@vBj; ts_refer=cn.bing.com/; wxopenid=; tmeLoginType=2; psrf_qqaccess_token=6867736088B9A3BF64BB1F2E521BB524; psrf_musickey_createtime=1747621080; qqmusic_key=Q_H_L_63k3Nbj3-oeaFkEf8pHjku1Ui7Axx8nkU7oSnIQWu5SXTh-sbEb7oynIiMa13sb_yGpGKqQq1OOU38Y6gXofIuQ; psrf_qqrefresh_token=AB551E603DDFE9767803FC4A2123849A; wxunionid=; psrf_qqunionid=CCDBBA6FB62C3727B30F0A6DA2709A15; wxrefresh_token=; uin=1114754071; psrf_access_token_expiresAt=1752805080; euin=oK657eSk7enlov**; psrf_qqopenid=E5310FF84A060E405E9E7D6C3BC669F0; qm_keyst=Q_H_L_63k3Nbj3-oeaFkEf8pHjku1Ui7Axx8nkU7oSnIQWu5SXTh-sbEb7oynIiMa13sb_yGpGKqQq1OOU38Y6gXofIuQ; fqm_sessionid=46a7db64-a9aa-44b2-afca-6e6666699650; pgv_info=ssid=s725469710; ts_last=y.qq.com/'
-    }
-    await this.rcpSession.post('http://' + ip + ':3300/user/setCookie', requestContent).then((response) => {
-      this.getCookie();
-      console.log('log:' + response.toString());
-    }).catch((err: BusinessError) => {
-    });
-    return;
-  }
 
   /**
    * The method of closing a RCP Session.
