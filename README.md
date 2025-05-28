@@ -6,7 +6,7 @@
 
 ### 技术：鸿蒙ArkTs
 
-- 使用qq音乐api，来源[QQ音乐API koa2实现版本](https://rain120.github.io/qq-music-api/#/?id=获取歌手信息)
+- 使用qq音乐api，来源[QQ音乐API koa2实现版本](https://rain120.github.io/qq-music-api/#/)
 
 ### 主要功能
 
