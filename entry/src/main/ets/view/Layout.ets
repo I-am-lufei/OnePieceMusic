@@ -239,40 +239,40 @@ struct Layout {
     // });
   }
 
-  async aboutToAppear(): Promise<void> {
-    this.playerManager.init();
-    let time = systemDateTime.getTime();
-    // this.database.query_song_all();
-    // this.database.delete('song');
-    // this.database.delete('playlist');
-    // this.database.delete('album');
-    // this.database.delete('singer');
-    promptAction.showToast({
-      message: time.toString()
-    })
-    let rcpUtil: RCPUtils = new RCPUtils();
-
-    await rcpUtil.getRankList().then((value) => {
-      this.playerManager.cur_play_song.RankList = value;
-    });
-    await rcpUtil.getCategoryList().then((value: CategoryList[]) => {
-      this.playerManager.cur_play_song.CategoryList = value;
-    });
-    await rcpUtil.getRankDetail().then((val) => {
-      this.playerManager.Rank_Detail = val;
-    })
-
-    //拿到歌手热歌的id
-    await rcpUtil.getSingerHotId(this.singer_id).then((value: hot_return[]) => {
-      this.hot_song_id_list = value;
-    });
-
-    //初始化待播放歌曲列表
-    this.hot_song_id_list.forEach(async (item, index) => {
-      this.getSongInfo(rcpUtil, item.hot_song_id, item.album_id, index)
-    })
-
-  }
+  // async aboutToAppear(): Promise<void> {
+  //   this.playerManager.init();
+  //   let time = systemDateTime.getTime();
+  //   // this.database.query_song_all();
+  //   // this.database.delete('song');
+  //   // this.database.delete('playlist');
+  //   // this.database.delete('album');
+  //   // this.database.delete('singer');
+  //   promptAction.showToast({
+  //     message: time.toString()
+  //   })
+  //   let rcpUtil: RCPUtils = new RCPUtils();
+  //
+  //   await rcpUtil.getRankList().then((value) => {
+  //     this.playerManager.cur_play_song.RankList = value;
+  //   });
+  //   await rcpUtil.getCategoryList().then((value: CategoryList[]) => {
+  //     this.playerManager.cur_play_song.CategoryList = value;
+  //   });
+  //   await rcpUtil.getRankDetail().then((val) => {
+  //     this.playerManager.Rank_Detail = val;
+  //   })
+  //
+  //   //拿到歌手热歌的id
+  //   await rcpUtil.getSingerHotId(this.singer_id).then((value: hot_return[]) => {
+  //     this.hot_song_id_list = value;
+  //   });
+  //
+  //   //初始化待播放歌曲列表
+  //   this.hot_song_id_list.forEach(async (item, index) => {
+  //     this.getSongInfo(rcpUtil, item.hot_song_id, item.album_id, index)
+  //   })
+  //
+  // }
 
   build() {
     NavDestination() {
@@ -369,7 +369,11 @@ struct Layout {
           })
         }
       }
-    }.hideTitleBar(true)
+    }
+    .onReady((ctx) => {
+      this.isLoading = ctx.pathInfo.param as boolean;
+    })
+    .hideTitleBar(true)
     .hideToolBar(true)
   }
 }
