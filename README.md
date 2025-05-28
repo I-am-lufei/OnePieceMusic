@@ -17,7 +17,7 @@
 - 歌单
 - 排行榜
 
-![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/Screenshot_2025-05-28T141948.png)
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/img.png)
 
 #### 我的
 
@@ -26,7 +26,7 @@
 - 自建歌单
 - 收藏歌单
 
-<img src="C:\Users\路飞\Pictures\Screenshot_2025-05-28T142508.png" alt="Screenshot_2025-05-28T142508" style="zoom: 25%;" />
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/img_1.png)
 
 #### 音乐播放页
 
@@ -36,7 +36,7 @@
 - 播放模式选择
 - 最近播放
 
-<img src="C:\Users\路飞\Pictures\Screenshot_2025-05-28T142708.png" alt="Screenshot_2025-05-28T142708" style="zoom:25%;" />
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/img_2.png)
 
 #### 歌手
 
@@ -45,12 +45,12 @@
 - 热门歌曲
 - 专辑
 
-<img src="C:\Users\路飞\Pictures\Screenshot_2025-05-28T142901.png" alt="Screenshot_2025-05-28T142901" style="zoom:25%;" />
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/img_3.png)
 
 #### 歌单、专辑
 
 - 歌曲展示
 
-<img src="C:\Users\路飞\Pictures\Screenshot_2025-05-28T143008.png" alt="Screenshot_2025-05-28T143008" style="zoom:25%;" />
+![Image](https://github.com/I-am-lufei/OnePieceMusic/blob/main/Images/img_4.png)
 
 ## 持续完善中...
