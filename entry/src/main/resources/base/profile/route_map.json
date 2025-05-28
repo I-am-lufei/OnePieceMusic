@@ -1,0 +1,108 @@
+{
+  "routerMap": [
+    {
+      "name": "PlayPage",
+      "pageSourceFile": "src/main/ets/view/PlayPage.ets",
+      "buildFunction": "PlayPageBuilder",
+      "data": {
+        "description": "this is PlayPage"
+      }
+    },
+    {
+      "name": "SearchPage",
+      "pageSourceFile": "src/main/ets/view/SearchResultPage.ets",
+      "buildFunction": "searchResultPageBuilder",
+      "data": {
+        "description": "this is SearchPage"
+      }
+    },
+    {
+      "name": "RankPage",
+      "pageSourceFile": "src/main/ets/view/RankPage.ets",
+      "buildFunction": "RankPageBuilder",
+      "data": {
+        "description": "this is RankPage"
+      }
+    },
+    {
+      "name": "CategoryPage",
+      "pageSourceFile": "src/main/ets/view/CategoryPage.ets",
+      "buildFunction": "CategoryPageBuilder",
+      "data": {
+        "description": "this is CategoryPage"
+      }
+    },
+    {
+      "name": "PlayListPage",
+      "pageSourceFile": "src/main/ets/view/PlayListPage.ets",
+      "buildFunction": "PlayListPageBuilder",
+      "data": {
+        "description": "this is PlayListPage"
+      }
+    },
+    {
+      "name": "PlayDetailPage",
+      "pageSourceFile": "src/main/ets/view/PlayDetailPage.ets",
+      "buildFunction": "PlayDetailPageBuilder",
+      "data": {
+        "description": "this is PlayDetailPage"
+      }
+    },
+    {
+      "name": "SingerListPage",
+      "pageSourceFile": "src/main/ets/view/SingerListPage.ets",
+      "buildFunction": "SingerListPageBuilder",
+      "data": {
+        "description": "this is SingerListPage"
+      }
+    },
+    {
+      "name": "SingerPage",
+      "pageSourceFile": "src/main/ets/view/SingerPage.ets",
+      "buildFunction": "SingerPageBuilder",
+      "data": {
+        "description": "this is SingerPage"
+      }
+    },
+    {
+      "name": "AlbumPage",
+      "pageSourceFile": "src/main/ets/view/AlbumPage.ets",
+      "buildFunction": "AlbumPageBuilder",
+      "data": {
+        "description": "this is AlbumPage"
+      }
+    },
+    {
+      "name": "LikePage",
+      "pageSourceFile": "src/main/ets/view/LikePage.ets",
+      "buildFunction": "LikePageBuilder",
+      "data": {
+        "description": "this is LikePage"
+      }
+    },
+    {
+      "name": "AddToPlayListPage",
+      "pageSourceFile": "src/main/ets/view/AddToPlayListPage.ets",
+      "buildFunction": "AddToPlayListPageBuilder",
+      "data": {
+        "description": "this is AddToPlayListPage"
+      }
+    },
+    {
+      "name": "SelfCreatePlayPage",
+      "pageSourceFile": "src/main/ets/view/SelfCreatePlayPage.ets",
+      "buildFunction": "SelfCreatePlayPageBuilder",
+      "data": {
+        "description": "this is SelfCreatePlayPage"
+      }
+    },
+    {
+      "name": "RecentPage",
+      "pageSourceFile": "src/main/ets/view/RecentPage.ets",
+      "buildFunction": "RecentPageBuilder",
+      "data": {
+        "description": "this is RecentPage"
+      }
+    }
+  ]
+}
