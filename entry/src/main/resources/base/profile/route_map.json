@@ -103,6 +103,22 @@
       "data": {
         "description": "this is RecentPage"
       }
+    },
+    {
+      "name": "Layout",
+      "pageSourceFile": "src/main/ets/view/Layout.ets",
+      "buildFunction": "LayoutBuilder",
+      "data": {
+        "description": "this is Layout"
+      }
+    },
+    {
+      "name": "StartPage",
+      "pageSourceFile": "src/main/ets/view/StartPage.ets",
+      "buildFunction": "StartPageBuilder",
+      "data": {
+        "description": "this is StartPage"
+      }
     }
   ]
 }
