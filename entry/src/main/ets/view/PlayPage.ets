@@ -3,7 +3,7 @@ import { LyricLine } from '../common/LyricLine'
 import { promptAction } from '@kit.ArkUI';
 import { LrcParser } from '../common/LyricParser';
 import DataBase, { SongItem } from '../common/Database';
-import { RecentPlayList } from '../pages/Index';
+import { RecentPlayList } from '../view/Layout';
 import { RCPUtils } from '../common/RCPUtils';
 
 @Builder
