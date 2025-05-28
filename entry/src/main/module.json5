@@ -16,7 +16,7 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:player_icon",
+        "icon": "$media:start",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:player_icon",
         "startWindowBackground": "$color:start_window_background",
